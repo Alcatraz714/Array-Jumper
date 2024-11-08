@@ -4,6 +4,7 @@
 #include "../../header/UI/UIService.h"
 #include "../../header/Sound/SoundService.h"
 #include "../../header/Player/PlayerService.h"
+#include "../../header/Level/LevelService.h"
 
 namespace Global
 {
@@ -15,6 +16,7 @@ namespace Global
         Sound::SoundService* sound_service;
         UI::UIService* ui_service;
         Player::PlayerService* player_service;
+        Level::LevelService* level_service;
         
 
         ~ServiceLocator();
@@ -35,5 +37,6 @@ namespace Global
         Sound::SoundService* getSoundService();
         UI::UIService* getUIService();
         Player::PlayerService* getPlayerService();
+        Level::LevelService* getLevelService();
     };
 }

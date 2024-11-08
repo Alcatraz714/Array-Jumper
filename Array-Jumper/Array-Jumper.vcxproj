@@ -137,6 +137,10 @@
     <ClCompile Include="source\Event\EventService.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\Global\ServiceLocator.cpp" />
+    <ClCompile Include="source\Level\LevelController.cpp" />
+    <ClCompile Include="source\Level\LevelModel.cpp" />
+    <ClCompile Include="source\Level\LevelService.cpp" />
+    <ClCompile Include="source\Level\LevelView.cpp" />
     <ClCompile Include="source\Player\PlayerController.cpp" />
     <ClCompile Include="source\Player\PlayerModel.cpp" />
     <ClCompile Include="source\Player\PlayerService.cpp" />
@@ -158,6 +162,10 @@
   <ItemGroup>
     <ClInclude Include="header\Global\Config.h" />
     <ClInclude Include="header\Event\EventService.h" />
+    <ClInclude Include="header\Level\LevelController.h" />
+    <ClInclude Include="header\Level\LevelModel.h" />
+    <ClInclude Include="header\Level\LevelService.h" />
+    <ClInclude Include="header\Level\LevelView.h" />
     <ClInclude Include="header\Player\PlayerController.h" />
     <ClInclude Include="header\Player\PlayerModel.h" />
     <ClInclude Include="header\Player\PlayerService.h" />
