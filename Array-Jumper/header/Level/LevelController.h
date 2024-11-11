@@ -1,6 +1,5 @@
 #pragma once
-
-#include "LevelModel.h"
+#include "../../header/Level/LevelModel.h"
 
 namespace Level
 {

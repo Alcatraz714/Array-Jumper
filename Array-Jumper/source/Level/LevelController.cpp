@@ -1,6 +1,8 @@
 #include "../../header/Level/LevelController.h"
 #include "../../header/Level/LevelView.h"
 #include "../../header/Level/LevelModel.h"
+#include "../../header/Level/LevelData.h"
+#include "../../header/Main/GameService.h"
 
 namespace Level
 {

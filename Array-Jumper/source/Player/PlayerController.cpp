@@ -1,6 +1,8 @@
-#include "../../Header/Player/PlayerController.h"
-#include "../../Header/Player/PlayerView.h"
-#include "../../Header/Player/PlayerModel.h"
+#include "../../header/Player/PlayerController.h"
+#include "../../header/Player/PlayerView.h"
+#include "../../header/Player/PlayerModel.h"
+
+
 
 namespace Player
 {
@@ -44,6 +46,7 @@ namespace Player
 	{
 		return player_model->getCurrentPosition();
 	}
+
 
 	void PlayerController::destroy()
 	{

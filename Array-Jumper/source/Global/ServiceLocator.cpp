@@ -18,8 +18,8 @@ namespace Global
 		event_service = nullptr;
 		sound_service = nullptr;
 		ui_service = nullptr;
-		player_service = nullptr;
 		level_service = nullptr;
+		player_service = nullptr;
 
 		createServices();
 	}
@@ -32,8 +32,8 @@ namespace Global
 		event_service = new EventService();
 		sound_service = new SoundService();
 		ui_service = new UIService();
-		player_service = new PlayerService();
 		level_service = new LevelService();
+		player_service = new PlayerService();
 	}
 
 	void ServiceLocator::initialize()
@@ -42,8 +42,8 @@ namespace Global
 		event_service->initialize();
 		sound_service->initialize();
 		ui_service->initialize();
-		player_service->initialize();
 		level_service->intialize();
+		player_service->initialize();
 	}
 
 	void ServiceLocator::update()
@@ -75,8 +75,8 @@ namespace Global
 		delete(event_service);
 		delete(sound_service);
 		delete(ui_service);
-		delete(player_service);
 		delete(level_service);
+		delete(player_service);
 	}
 
 	ServiceLocator* ServiceLocator::getInstance()

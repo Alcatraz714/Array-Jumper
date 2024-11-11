@@ -76,8 +76,10 @@ namespace Player
 		return sf::Vector2f(xPosition, yPosition);
 	}
 
+
 	void PlayerView::drawPlayer()
 	{
 		player_image->render();
 	}
+
 }
