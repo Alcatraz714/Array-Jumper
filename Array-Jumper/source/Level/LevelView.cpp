@@ -37,6 +37,11 @@ namespace Level
 		drawLevel();
 	}
 
+	BoxDimensions LevelView::getBoxDimensions()
+	{
+		return BoxDimensions();
+	}
+
 	void LevelView::createImages()
 	{
 		background_image = new ImageView();
