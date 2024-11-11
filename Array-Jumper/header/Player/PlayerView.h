@@ -1,4 +1,5 @@
 #pragma once
+#include "../../header/Level/LevelModel.h"
 #include "../../Header/UI/UIElement/ImageView.h"
 
 namespace Player
@@ -13,6 +14,8 @@ namespace Player
 
 		float player_height;
 		float player_width;
+
+		Level::BoxDimensions current_box_dimensions;
 
 		void initializePlayerImage();
 		void drawPlayer();

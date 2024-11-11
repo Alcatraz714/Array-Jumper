@@ -21,6 +21,7 @@ namespace Player
 	{
 		current_position = new_position;
 	}
+
 	void PlayerModel::initialize()
 	{
 	}
