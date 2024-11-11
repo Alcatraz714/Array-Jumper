@@ -1,4 +1,6 @@
 #pragma once
+
+
 namespace Player
 {
 	enum class PlayerState
@@ -15,12 +17,13 @@ namespace Player
 		int current_position;
 
 	public:
+
+		void initialize();
+
 		PlayerState getPlayerState();
 		void setPlayerState(PlayerState new_player_state);
 
 		int getCurrentPosition();
 		void setCurrentPosition(int new_position);
-
-		void initialize();
 	};
 }
