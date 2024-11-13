@@ -23,6 +23,10 @@ namespace Player
 		player_controller->render();
 	}
 
+	void PlayerService::takeDamage()
+	{
+		player_controller->takeDamage();
+	}
 
 	void PlayerService::destroy() { delete(player_controller); }
 }
