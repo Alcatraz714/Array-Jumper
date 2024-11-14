@@ -60,7 +60,7 @@ namespace Gameplay
 
 	void GameplayController::processEndBlock()
 	{
-		//ServiceLocator::getInstance()->getPlayerService()->levelComplete();
+		ServiceLocator::getInstance()->getPlayerService()->levelComplete();
 		ServiceLocator::getInstance()->getSoundService()->playSound(SoundType::LEVEL_COMPLETE);
 		GameService::setGameState(GameState::CREDITS);
 	}
