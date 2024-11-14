@@ -1,10 +1,10 @@
 #pragma once
 #include <SFML/Graphics/RenderWindow.hpp>
-
 #include "../../header/UI/SplashScreen/SplashScreenUIController.h"
 #include "../../header/UI/MainMenu/MainMenuUIController.h"
 #include "../../header/UI/Instructions/InstructionsUIController.h"
 #include "../../header/UI/Credits/CreditsScreenUIController.h"
+#include "../../header/UI/Gameplay/GameplayUIController.h"
 
 namespace UI
 {
@@ -16,6 +16,7 @@ namespace UI
 		MainMenu::MainMenuUIController* main_menu_ui_controller;
 		Credits::CreditsScreenUIController* credits_screen_ui_controller;
 		Instructions::InstructionsUIController* instructions_ui_controller;
+		GameplayUI::GameplayUIController* gameplay_ui_controller;
 
 
 		void createControllers();
