@@ -168,6 +168,7 @@
     <ClInclude Include="header\Global\Config.h" />
     <ClInclude Include="header\Event\EventService.h" />
     <ClInclude Include="header\Level\BlockType.h" />
+    <ClInclude Include="header\Level\LevelConfiguration.h" />
     <ClInclude Include="header\Level\LevelController.h" />
     <ClInclude Include="header\Level\LevelData.h" />
     <ClInclude Include="header\Level\LevelModel.h" />

@@ -1,5 +1,6 @@
 #pragma once
 #include "../../header/Level/LevelData.h"
+#include "../../header/Level/LevelConfiguration.h"
 
 namespace Level
 {
@@ -17,12 +18,18 @@ namespace Level
 	class LevelModel
 	{
 	private:
-		LevelData current_level_data;
+		//LevelData current_level_data; - redacted since we now have multiple levels
+		const int number_of_level = LevelConfiguration::NUMBER_OF_LEVELS;
+		LevelConfiguration level_configuration;
+		int current_level_index;
 
 	public:
 		LevelModel();
 		~LevelModel();
-
+		void loadNextLevel();
 		BlockType getCurrentBoxValue(int currentPosition);
+		bool isLastLevel();
+		int getCurrentLevelNumber();
+		void reset(); // replay ability
 	};
 }
