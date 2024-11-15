@@ -1,12 +1,13 @@
 #pragma once
-#include "../../header/Level/LevelData.h"
-#include "../../header/Level/BlockType.h"
+#include "LevelData.h"
+#include "BlockType.h"
 
 namespace Level
 {
     class LevelConfiguration
     {
     private:
+
 
         BlockType level_1[LevelData::NUMBER_OF_BOXES] =
         {

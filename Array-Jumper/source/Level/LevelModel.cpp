@@ -1,4 +1,5 @@
 #include "../../header/Level/LevelModel.h"
+#include "../../header/Level/LevelConfiguration.h"
 
 namespace Level
 {
@@ -7,7 +8,7 @@ namespace Level
 
 	void LevelModel::loadNextLevel()
 	{
-		current_level_index += 1;
+		current_level_index ++;
 	}
 
 	BlockType LevelModel::getCurrentBoxValue(int currentPosition)

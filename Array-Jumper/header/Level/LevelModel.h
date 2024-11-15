@@ -26,9 +26,10 @@ namespace Level
 	public:
 		LevelModel();
 		~LevelModel();
-		void loadNextLevel();
+		
 		BlockType getCurrentBoxValue(int currentPosition);
 		bool isLastLevel();
+		void loadNextLevel();
 		int getCurrentLevelNumber();
 		void reset(); // replay ability
 	};
